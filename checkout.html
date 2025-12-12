@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Multiverso TCG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+    <div class="logo"><a href="index.html">Multiverso TCG</a></div>
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="categoria-magic.html">Magic</a>
+        <a href="categoria-pokemon.html">Pokémon</a>
+        <a href="categoria-yugi.html">Yu-Gi-Oh!</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="login.html">Login</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="atendimento.html">Atendimento</a>
+    </nav>
+</header>
+
+<main class="conteudo">
+
+<section class="pagina-checkout">
+    <h1>Checkout</h1>
+    <p class="texto-checkout">
+        Preencha os dados de checkout.
+    </p>
+        <div class="checkout-formulario">
+            <form class="formulario-simples formulario-checkout">
+                <div class="campo-form">
+                    <label for="nome">Nome completo</label>
+                    <input id="nome" type="text" placeholder="Seu nome completo">
+                </div>
+
+                <div class="campo-form">
+                    <label for="endereco">Endereço</label>
+                    <input id="endereco" type="text" placeholder="Rua, número, bairro">
+                </div>
+
+                <div class="campo-duplo">
+                    <div class="campo-form">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" placeholder="Cidade">
+                    </div>
+                    <div class="campo-form">
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" placeholder="00000-000">
+                    </div>
+                </div>
+
+                <div class="campo-form">
+                    <label for="pagamento">Método de pagamento</label>
+                    <select id="pagamento">
+                        <option>Cartão de crédito</option>
+                        <option>Cartão de débito</option>
+                        <option>Boleto</option>
+                    </select>
+                </div>
+
+                <div class="acoes-form">
+                    <a class="btn botao-secundario" href="carrinho.html">Voltar ao carrinho</a>
+                    <a class="btn" href="confirmacao-pedido.html">Finalizar pedido</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+    <p>Multiverso TCG &copy; 2025.</p>
+</footer>
+</body>
+</html>

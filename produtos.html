@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Multiverso TCG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+    <div class="logo"><a href="index.html">Multiverso TCG</a></div>
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="categoria-magic.html">Magic</a>
+        <a href="categoria-pokemon.html">Pokémon</a>
+        <a href="categoria-yugi.html">Yu-Gi-Oh!</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="login.html">Login</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="atendimento.html">Atendimento</a>
+    </nav>
+</header>
+
+<main class="conteudo">
+
+    <section class="cabecalho-pagina">
+        <h1>Todos os produtos</h1>
+        <p>Explore cartas de <strong>Magic</strong>, <strong>Pokémon</strong> e <strong>Yu-Gi-Oh!</strong> em um único lugar.</p>
+        <p><strong>20 produtos encontrados</strong></p>
+    </section>
+
+    <section class="controle-produtos">
+        <form class="filtros-produtos" action="#" method="get"> 
+
+            <div class="campo-select">
+                <label for="jogo">Jogo</label>
+                <select id="jogo" name="jogo">
+                    <option value="">Todos</option>
+                    <option value="magic">Magic: The Gathering</option>
+                    <option value="pokemon">Pokémon TCG</option>
+                    <option value="yugi">Yu-Gi-Oh!</option>
+                </select>
+            </div>
+
+            <div class="campo-select">
+                <label for="ordenar">Ordenar por</label>
+                <select id="ordenar" name="ordenar">
+                    <option value="relevancia">Relevância</option>
+                    <option value="preco-asc">Menor preço</option>
+                    <option value="preco-desc">Maior preço</option>
+                    <option value="nome">Nome A-Z</option>
+                </select>
+            </div>
+        </form>
+    </section>
+
+    <section class="pagina-produtos">
+
+        <div class="grid-produtos">
+            <article class="card-produto">
+                <img src="imagens/DragaoFlamejante.png" alt="Magic - Dragão Flamejante">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Magic - Dragão Flamejante</h3>
+                <p class="preco-card">R$ 29,90</p>
+                <span class="desc-carta">Dragão ancestral que domina o campo com chamas devastadoras.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto1.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/MagoElemental.png" alt="Magic - Mago Elemental">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Incomum</span>
+                </div>
+                <h3>Magic - Mago Elemental</h3>
+                <p class="preco-card">R$ 19,90</p>
+                <span class="desc-carta">Usuário de magia elemental capaz de manipular fogo, ar e terra.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto2.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/elfa.png" alt="Magic - Elfa da Floresta">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Comum</span>
+                </div>
+                <h3>Magic - Elfa da Floresta</h3>
+                <p class="preco-card">R$ 9,90</p>
+                <span class="desc-carta">Criatura ágil que concede mana e protege as florestas do plano.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto3.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/pikachu.png" alt="Pokémon - Pikachu Holográfico">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Pokémon - Pikachu Holográfico</h3>
+                <p class="preco-card">R$ 24,90</p>
+                <span class="desc-carta">O mascote elétrico mais famoso do mundo em versão especial.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto4.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/charizard.png" alt="Pokémon - Charizard Clássico">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Ultra Rara</span>
+                </div>
+                <h3>Pokémon - Charizard Clássico</h3>
+                <p class="preco-card">R$ 89,90</p>
+                <span class="desc-carta">Carta icônica de colecionador, muito disputada entre treinadores.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto5.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/bulbasaur.png" alt="Pokémon - Bulbasaur Foil">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Foil</span>
+                </div>
+                <h3>Pokémon - Bulbasaur Foil</h3>
+                <p class="preco-card">R$ 15,90</p>
+                <span class="desc-carta">Starter clássico em versão brilhante para completar o set inicial.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto6.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/MagoNegro.png" alt="Yu-Gi-Oh! - Mago Negro">
+                <div class="badges-card">
+                    <span class="badge badge-yugi">Yu-Gi-Oh!</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Yu-Gi-Oh! - Mago Negro</h3>
+                <p class="preco-card">R$ 34,90</p>
+                <span class="desc-carta">Mago lendário, assinatura do protagonista clássico dos duelos.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto7.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/DragaoBranco.png" alt="Yu-Gi-Oh! - Dragão Branco de Olhos Azuis">
+                <div class="badges-card">
+                    <span class="badge badge-yugi">Yu-Gi-Oh!</span>
+                    <span class="badge">Ultra Rara</span>
+                </div>
+                <h3>Yu-Gi-Oh! - Dragão Branco de Olhos Azuis</h3>
+                <p class="preco-card">R$ 59,90</p>
+                <span class="desc-carta">O dragão mais temido dos primeiros duelos, em edição de destaque.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto8.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/exodia.png" alt="Yu-Gi-Oh! - Exodia Parcial">
+                <div class="badges-card">
+                    <span class="badge badge-yugi">Yu-Gi-Oh!</span>
+                    <span class="badge">Colecionável</span>
+                </div>
+                <h3>Yu-Gi-Oh! - Exodia Parcial</h3>
+                <p class="preco-card">R$ 39,90</p>
+                <span class="desc-carta">Parte do lendário Exodia para completar o combo definitivo.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto9.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/CavaleiroSagrado.png" alt="Magic - Cavaleiro Sagrado">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Magic - Cavaleiro Sagrado</h3>
+                <p class="preco-card">R$ 22,90</p>
+                <span class="desc-carta">Guerreiro de luz que protege seus aliados em campo.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto10.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/HidraProfundezas.png" alt="Magic - Hidra das Profundezas">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Mítica</span>
+                </div>
+                <h3>Magic - Hidra das Profundezas</h3>
+                <p class="preco-card">R$ 49,90</p>
+                <span class="desc-carta">Criatura colossal que cresce a cada ataque desferido.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto11.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/TempestadeArcana.png" alt="Magic - Tempestade Arcana">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Magic - Tempestade Arcana</h3>
+                <p class="preco-card">R$ 27,90</p>
+                <span class="desc-carta">Feitiço que varre o campo com energia mágica instável.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto12.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/Mewtwo.png" alt="Pokémon - Mewtwo Psiônico">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Ultra Rara</span>
+                </div>
+                <h3>Pokémon - Mewtwo Psiônico</h3>
+                <p class="preco-card">R$ 79,90</p>
+                <span class="desc-carta">Lendário psíquico com poder devastador.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto13.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/Gengar.png" alt="Pokémon - Gengar Sombrio">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Pokémon - Gengar Sombrio</h3>
+                <p class="preco-card">R$ 32,90</p>
+                <span class="desc-carta">Fantasma sorridente que assombra o campo de batalha.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto14.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/Eevee.png" alt="Pokémon - Eevee Colecionador">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Colecionável</span>
+                </div>
+                <h3>Pokémon - Eevee Colecionador</h3>
+                <p class="preco-card">R$ 18,90</p>
+                <span class="desc-carta">Eevee em arte alternativa para amantes de evoluções.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto15.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/DragaoNegroOlhosVermelhos.png" alt="Yu-Gi-Oh! - Dragão Negro de Olhos Vermelhos">
+                <div class="badges-card">
+                    <span class="badge badge-yugi">Yu-Gi-Oh!</span>
+                    <span class="badge">Rara</span>
+                </div>
+                <h3>Yu-Gi-Oh! - Dragão Negro de Olhos Vermelhos</h3>
+                <p class="preco-card">R$ 33,90</p>
+                <span class="desc-carta">Dragão de chamas sombrias, parceiro clássico de Joey.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto16.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/MagoTempo.png" alt="Yu-Gi-Oh! - Mago do Tempo">
+                <div class="badges-card">
+                    <span class="badge badge-yugi">Yu-Gi-Oh!</span>
+                    <span class="badge">Incomum</span>
+                </div>
+                <h3>Yu-Gi-Oh! - Mago do Tempo</h3>
+                <p class="preco-card">R$ 21,90</p>
+                <span class="desc-carta">Mago imprevisível que manipula a sorte nos duelos.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto17.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/CyberDragao.png" alt="Yu-Gi-Oh! - Cyber Dragão">
+                <div class="badges-card">
+                    <span class="badge badge-yugi">Yu-Gi-Oh!</span>
+                    <span class="badge">Ultra Rara</span>
+                </div>
+                <h3>Yu-Gi-Oh! - Cyber Dragão</h3>
+                <p class="preco-card">R$ 44,90</p>
+                <span class="desc-carta">Dragão tecnológico voltado para fusões mecânicas.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto18.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/PlaneswalkerArcano.png" alt="Magic - Planeswalker Arcano">
+                <div class="badges-card">
+                    <span class="badge badge-magic">Magic:</span>
+                    <span class="badge">Mítica</span>
+                </div>
+                <h3>Magic - Planeswalker Arcano</h3>
+                <p class="preco-card">R$ 69,90</p>
+                <span class="desc-carta">Planeswalker poderoso que domina vários tipos de magia.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto19.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+
+            <article class="card-produto">
+                <img src="imagens/Lugia.png" alt="Pokémon - Lugia Guardião dos Mares">
+                <div class="badges-card">
+                    <span class="badge badge-pokemon">Pokémon</span>
+                    <span class="badge">Lendária</span>
+                </div>
+                <h3>Pokémon - Lugia Guardião dos Mares</h3>
+                <p class="preco-card">R$ 84,90</p>
+                <span class="desc-carta">Guardião lendário dos mares em arte imponente.</span>
+                <div class="acoes-card">
+                    <a class="btn" href="produtos_diponiveis/produto20.html">Ver detalhes</a>
+                    <a class="btn botao-secundario" href="carrinho.html">Adicionar ao carrinho</a>
+                </div>
+            </article>
+        </div>
+
+        <nav class="paginacao">
+            <a href="#" class="pagina ativa">1</a>
+            <a href="#" class="pagina">2</a>
+            <a href="#" class="pagina">3</a>
+            <a href="#" class="pagina">Próximo &raquo;</a>
+        </nav>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <p>Multiverso TCG &copy; 2025.</p>
+</footer>
+</body>
+</html>
